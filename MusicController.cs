@@ -23,7 +23,7 @@ public class MusicController : MonoBehaviour
         volume=0.5f;
         pitch=1f;
     }
-    // Start est appelé en premier
+    // Start is called before the first frame update
     void Start()
     {
         source.clip=sound;
@@ -36,7 +36,7 @@ public class MusicController : MonoBehaviour
 
     }
 
-    // Update est appelé a chaque fois que le jeu refresh
+    // Update is called once per frame
     void Update()
     {
         if(UnityEngine.Input.GetKeyDown("space"))
