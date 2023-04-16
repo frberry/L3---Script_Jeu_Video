@@ -20,9 +20,15 @@ Update function : First of all, we will check the distance between the monster a
 
 MusicController.cs :
 
+This is a function that already existed in unity and that we modified to include the possibility to pause the music and restart it by pressing space. The game we created is a game in which the sound of the monster is very important to locate where it is in relation to our character, so we thought of adding in our update function a possibility to pause the background music by pressing space.
+
 NbObjets.cs :
 
+La fonction "NbObjets" agis comme un compteur qui va nous servir dans la fonction "ObjetsPrendre" qui va nous permettre de savoir le nombre d'objets que le joueurs a ramassé.
+
 ObjetsPrendre.cs :
+
+Cette
 
 PasseGameOver.cs : 
 
