@@ -1,12 +1,12 @@
 # L2 // Projet Jeu Video (Scripts)
 The different scripts of my video game :
 
-MenuScript.cs :
+# MenuScript.cs :
 
 This script allows to manage the menu and the scene management from it.
 If we click on "jouer" in the menu, then the "name" item will take the name of the scene with the different levels of play. If we click on "quitter", then the function "Quit()" will start and we quit the game.
 
-Monstre.cs :
+## Monstre.cs :
 
 This script includes all the programs related to the monster and its behavior in game.
 First of all, we define the player's capsule in relation to the monster.
